@@ -24,7 +24,7 @@ RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://gitlab.com/marvinroman/ohmyzsh/-/r
 PKGS=(
 'autojump'
 'awesome-terminal-fonts'
-'waterfox' # Waterfox Browser
+'waterfox-classic-bin' # Waterfox Browser
 'dxvk-bin' # DXVK DirectX to Vulcan
 'github-desktop-bin' # Github Desktop sync
 'lightly-git'
