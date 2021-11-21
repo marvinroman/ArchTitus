@@ -18,7 +18,8 @@ cd ${HOME}/yay
 makepkg -si --noconfirm
 cd ~
 touch "$HOME/.cache/zshhistory"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/marvinroman/oh-my-zsh/master/tools/install.sh)"
+# Install custom version of Oh My Zsh
+RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://gitlab.com/marvinroman/ohmyzsh/-/raw/main/tools/install.sh)"
 
 PKGS=(
 'autojump'
