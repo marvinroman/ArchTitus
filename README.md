@@ -16,8 +16,8 @@ If you don't want to build using this script I did create an image @ <https://ww
 From initial Prompt type the following commands:
 
 ```
-pacman -Sy git
-git clone https://github.com/ChrisTitusTech/ArchTitus
+pacman -Sy git curl
+git clone https://github.com/marvinroman/ArchTitus.git
 cd ArchTitus
 ./archtitus.sh
 ```
