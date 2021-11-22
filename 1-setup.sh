@@ -249,14 +249,14 @@ if ! source install.conf; then
 		echo "Incorrect username."
 	done 
 # convert name to lowercase before saving to install.conf
-echo "username=${username,,}" >> ${HOME}/${SCRIPTHOME}/install.conf
+echo "username=${username,,}" >> ${HOME}/ArchTitus/install.conf
 fi
 if [ $(whoami) = "root"  ];
 then
     useradd -m -G wheel,libvirt -s /bin/bash $username 
 	passwd $username
-	cp -R ${HOME}/${SCRIPTHOME} /home/${username}/
-    chown -R ${username}: /home/${username}/${SCRIPTHOME}
+	cp -R ${HOME}/ArchTitus /home/${username}/
+    chown -R ${username}: /home/${username}/ArchTitus
 
 	# Loop through user input until the user gives a valid hostname, but allow the user to force save 
 	while true
