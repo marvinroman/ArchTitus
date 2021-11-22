@@ -20,6 +20,9 @@ cd ~
 touch "$HOME/.cache/zshhistory"
 # Install custom version of Oh My Zsh
 RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://gitlab.com/marvinroman/ohmyzsh/-/raw/main/tools/install.sh)"
+# Download wallpapers
+rm -rf .local/share/wallpapers
+git clone https://gitlab.com/marvinroman/wallpapers.git ~/.local/share/wallpapers
 
 PKGS=(
 'autojump'
