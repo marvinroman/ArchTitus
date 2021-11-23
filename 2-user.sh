@@ -26,8 +26,9 @@ git clone https://gitlab.com/marvinroman/wallpapers.git ~/.local/share/wallpaper
 
 PKGS=(
 'autojump'
+'authy' # Authy Desktop 2nd factor
 'awesome-terminal-fonts'
-'waterfox-classic-bin' # Waterfox Browser
+'dbeaver' # Dbeaver SQL client
 'dxvk-bin' # DXVK DirectX to Vulcan
 'github-desktop-bin' # Github Desktop sync
 'lightly-git'
@@ -44,11 +45,14 @@ PKGS=(
 'plasma-pa'
 'ocs-url' # install packages from websites
 'sddm-nordic-theme-git'
+'slack' # Slack chat client
 'snapper-gui-git'
+'thunderbird' # Thunderbird email/calendar client
 'ttf-droid'
 'ttf-hack'
 'ttf-meslo' # Nerdfont package
 'ttf-roboto'
+'waterfox-classic-bin' # Waterfox Browser
 'zoom' # video conferences
 'snap-pac'
 )
