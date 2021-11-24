@@ -28,14 +28,19 @@ PKGS=(
 'autojump'
 'authy' # Authy Desktop 2nd factor
 'awesome-terminal-fonts'
+'ckb-next-git' # Corsair Keyboard configuration tool
 'dbeaver' # Dbeaver SQL client
 'dxvk-bin' # DXVK DirectX to Vulcan
 'github-desktop-bin' # Github Desktop sync
+'keepassxc-git' # Keepass password manager
+'latte-dock-git' # Latte dock for dock customization
+'libreoffice-slim-fixed-git' # Libre Office 
 'lightly-git'
 'lightlyshaders-git'
 'mangohud' # Gaming FPS Counter
 'mangohud-common'
 'nerd-fonts-fira-code'
+'nextcloud-client' # Nextcloud desktop cloud syncing
 'nordic-darker-standard-buttons-theme'
 'nordic-darker-theme'
 'nordic-kde-git'
