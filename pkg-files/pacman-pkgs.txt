@@ -31,11 +31,15 @@ cmatrix
 code
 cronie
 cups
+dhclient
 dialog
 discover
+dmidecode
+dnsmasq
 dolphin
 dosfstools
 dtc
+ebtables
 efibootmgr
 egl-wayland
 exfat-utils
@@ -76,6 +80,7 @@ layer-shell-qt
 libdvdcss
 libnewt
 libtool
+libvirt
 linux
 linux-firmware
 linux-headers
@@ -129,6 +134,7 @@ unrar
 unzip
 usbutils
 vim
+virt-install
 virt-manager
 virt-viewer
 wget
