@@ -74,6 +74,7 @@ PKGS=(
 'bind'
 'binutils'
 'bison'
+'blender' # Blender 3d graphics studio
 'bluedevil'
 'bluez'
 'bluez-libs'
@@ -87,6 +88,7 @@ PKGS=(
 'code' # Visual Studio code
 'cronie'
 'cups'
+'dbeaver' # Dbeaver SQL client
 'dialog'
 'discover'
 'dolphin'
@@ -122,6 +124,7 @@ PKGS=(
 'kcoreaddons'
 'kdeplasma-addons'
 'kde-gtk-config'
+'keepassxc' # KeepassXC password manager
 'kinfocenter'
 'kscreen'
 'kvantum-qt5'
@@ -131,6 +134,7 @@ PKGS=(
 'layer-shell-qt'
 'libdvdcss'
 'libnewt'
+'libreoffice-fresh' # Libreoffice office suite
 'libtool'
 'linux'
 'linux-firmware'
@@ -144,6 +148,7 @@ PKGS=(
 'nano'
 'neofetch'
 'networkmanager'
+'nextcloud-client' # Nextcloud desktop cloud syncing
 'ntfs-3g'
 'ntp'
 'okular'
